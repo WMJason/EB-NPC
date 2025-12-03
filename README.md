@@ -19,7 +19,7 @@ Rezaee, H., Schmidt, A. M., Stipancic, J., & Labbe, A. (2022). A process convolu
 
 https://github.com/aurelielabbe/Process-convolution-model-for-crash-counts-data-on-a-network
 
-We assume the following are available prior to the implementation:
+We assume the following are available prior to the implementation (for real-world data):
 
 1. Collision data: with longitude, latitude, and severity (optional)
 
@@ -28,7 +28,14 @@ We assume the following are available prior to the implementation:
 3. Road network shape files: ideally, the road shapefile should split by intersections (arterial & collector) only
 
 
-## Sample data
+## Sample data (Simulation Study)
+
+All code used to generate the simulated data, including the network, major and minor AADT values, intersection driving speeds, collision counts, and related outputs, is provided, along with all generated files.
+
+The complete workflow for running both the EB-PG and EB-NPC models on the simulated dataset is also included. The execution order follows the numerical prefixes of the files, ensuring that users can reproduce the results step-by-step.
+
+
+## Sample data (Edmonton DFS)
 
 All files starting with "0_" are sample data (only partial data of what was used in the case study) due to the privacy policy of the City of Edmonton (CoE).
 
