@@ -32,8 +32,6 @@ We assume the following are available prior to the implementation (for real-worl
 
 All code used to generate the simulated data, including the network, major and minor AADT values, intersection driving speeds, collision counts, and related outputs, is provided, along with all generated files.
 
-The complete workflow for running both the EB-PG and EB-NPC models on the simulated dataset is also included. The execution order follows the numerical prefixes of the files, ensuring that users can reproduce the results step-by-step.
-
 
 ## Sample data (Edmonton DFS)
 
